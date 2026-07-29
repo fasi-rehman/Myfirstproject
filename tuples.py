@@ -2,7 +2,7 @@
 tup = (1,3,5,3,2,7,1,9,4,6)
 print(type(tup))
 print(tup)
-print(tup[1:])
+print(tup[1:5])
 print(tup.index(6))
 print(tup.count(1))
 
