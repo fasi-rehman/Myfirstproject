@@ -21,12 +21,13 @@ dict["Father_name"] = "Ramzan"
 print(dict)
 
   # create a null dictionary ;
+  
 null ={}
 null["name"] = "ambala muslim gurduate college sargodha"
 print(null)
 
-
   # creating a nested dictionary;
+
 student = {
     "name" : "Fasi",
     "subject" : {
@@ -42,6 +43,8 @@ print(student["name"])
   
 # dictionary methods;
 # dict.keys()  => return all keys of dictionary;
+
+
 print(student.keys())
 print(len(student))
 print(list(student.keys()))
@@ -56,10 +59,14 @@ print(student.items())
 pairs = (list(student.keys()))
 print(pairs[1])
    # dict.get()  => return the keys value;
+
+
 print(student.get("named")) # it show no error only show none
 print(student["subject"])   # it show error if keys not exist
 
   # dict.update() => add new keys or dictionary in existing dict
+
+
 student.update({"profession" : "IT", "Date":"Augest,2026"})
 print(student)
 new_dict = {"name":"ali","works":"employee"}
